@@ -1,0 +1,13 @@
+name: test github action
+on: [push]
+
+jobs:
+  build:
+    name: Hello action
+    runs-on: ubuntu-18.04
+    steps:
+      - name: checkout source code
+        uses: actions/checkout@master
+
+      - name: echo Hello
+        run: echo "Hello world!"
