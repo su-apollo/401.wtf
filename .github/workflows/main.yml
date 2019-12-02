@@ -23,7 +23,7 @@ jobs:
       - name: Install depenencies
         run: yarn install
 
-      - name: Build.
+      - name: Build
         run: yarn run build
 
       - name: Deploy
